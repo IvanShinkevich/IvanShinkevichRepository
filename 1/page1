@@ -5,11 +5,8 @@
 	</head>
 	<body>
 		<script src="script.js"></script>
-		<script src="script1.js"></script>
-		<script src="script2.js"></script>
-		<script src="script3.js"></script>
-		<p>
-		
-	</p>
+		<script src="calculator.js"></script>
+		<script src="factorial.js"></script>
+		<script src="isitanumber.js"></script>
 	</body>
 </html>

@@ -1,20 +1,20 @@
-alert("Занятие")
+alert("Вычисление максимального числа");
 var x=prompt("x=");
 var y=prompt("y=");
-var z=prompt("y=");
-x=x*1;
-y=y*1;
-z=z*1;
-var max;
-if (x>y)
-	max=x;
-else max=y;
-if (z>max)
-alert(z)
-else alert(max)
+var z=prompt("z=");
+
+x1=x*1;
+y1=y*1;
+z1=z*1;
 
 
-function fact(x){
-	if(x==0) return 1;
-	return x*fact(x-1)
-}
+	var max;
+	max=x1*1;
+	if(z1*1>max) max=z1;
+	if(y1*1>max) max=y1;
+	alert(max);
+
+
+
+
+
