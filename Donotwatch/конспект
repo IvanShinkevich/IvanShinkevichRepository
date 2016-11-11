@@ -1,0 +1,146 @@
+Вторник 19:30 занятие!
+
+Project:
+front-end(видимое пользователем:веб-страницы,клиентское программирование(что на клиенте происзодит html css javascript) & back-end(серверные технологии,обработка данных на сервере php,scala,java,python,Node.js,c#,.Net,C++)
+у нас-front-end;exception:запуск серверов
+css<-html<-xml
+Netscape(browser)->LiveScript;+Sun=creation of Java;after-in just Netscape was made JavaScript - more like C++;
+Rust consisits of Python,C++,Rail;
+Microsoft - created JScript.THe same with Java,no problems with copyrights;
+ECMA standart
+ecmascript;
+JavaScript
+LECMA
+LDOM
+LBOM
+1,2,3,5,6(2015 year -different standarts)
+3,5 - used;
+JavaScript-сценарный,сразу выполняемый
+document.write(s)
+document.writeln(s)
+console.log(s)
+console.error(s)
+alert(s)
+prompt([s])
+confirm
+s-переменная типа string;просто в кавычках строка
+[]-необязательный аргумент,может быть,может не быть
+Типизация:
+Динамическая(переменная-любой объект может в себе иметь) и статическая(есть конкретный тип,но мы его задали,и вот он)
+JS-динамически типизированный
+JS,Wolfram,Python,PHP-dynamic
+C++,Java,C#(?),Scala(?),Pascal
+var s="Hello world"; - creation and initialization of s;
+s=1+2
+alert(s)
+any type;
+Типы данных:
+undefined - это неопределенность,т.е. создал переменную без значения,вывел и получил "undefined".если не возвращает-тоже
+number - все числа;целые и вещественные.что-то типа 10 в 307 степени по модулю.есть NaN("A"+1) и Infinity - всё,что больше,чем 10 в 307 по модулю;можно писать как переменные
+string - строковый тип,в нём хранятся строки
+boolean - true/false
+object - совокупность полей и методов.создание:
+var 0={
+	name: "Alex"
+	,age: 12
+	,getName: function(){
+	}
+}
+function
+
+Арифметические операции-абсолютно идентичны операциям в С++:
++
+-
+/
+%
+*
+>>
+<<
+&
+|
+!
+
+Преобразование типов.Явное((int)2.33) и неявное(a=a*1.0)
+В С++ - оба,в JS - только неявное
+"1"+2="12"
+"1"*1=1
+var x=prompt("x="); - x-строка
+Number(x) - пытается сделать число   parseInt(x) - возвращает целую    parseFloat(x) - возвращает дробную часть
+!!!!! Number(x)-приведение,number(x) - тип данных
+C-подобные конструкции
+1.Условные конструкции. if(a>b)
+{
+	//code
+} else{
+	//code
+}
+2.Циклы
+for(var i=0(переменный итератор);i<10(условие выполнения цикла);i++(инкремент))
+{
+	//...
+	break;
+}
+
+while(a>b)
+{
+	//....
+}
+
+3.switch(a){
+	case 1:
+	//...
+	break;
+	case 2:
+	//....
+	break;
+	default:
+	//...break
+}
+
+var x=(a>b) ? a:b; - тернарный оператор
+
+== - равно
+=== - тождество
+!= - не равно
+>= - больше либо равно
+<= - меньше либо равно
+&&
+||
+(b)|((a>=b)&&(a!=3))
+правила преобразования инта-не ноль-тру
+строка не пустая-тру
+пустая строка-фолс
+ноль-фолс
+0-фолс!!!!!
+2==2 - true
+2===2 - true
+2=="2" - true
+2==="2" - false
+0==undefined - false 
+0==false - true
+use === !!!!!!!
+!!!!Есть только в JS,JAva!!!!!!
+typeof x - тип х возвращает
+
+for(var i in o)
+{
+	//....
+} - осуществляет обход по полям объекта о
+Ассоциативный массив -ь вместо номера объекта имеем его название
+Создание функций на языке JS:
+function fact(x){
+	if(x==0) retutn 1;
+	return x*fact(x-1)
+}
+
+fact(73) - вызов функции
+Перегрузка функций-это создание функций с разными сигнатурами(с разными принимаемыми типами данных и разным количеством вводымих аргументов)
+
+Репозитории- локальные и удаленные
+Локальные
+удаленные
+remote repository (github.com)
+
+local repository
+
+working copy

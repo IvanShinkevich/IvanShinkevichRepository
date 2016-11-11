@@ -1,0 +1,15 @@
+p{
+	color:green;
+}
+.first{
+	color:red;
+}
+p.first{
+	color:blue;
+}
+p#A1{
+	color:rgba(120,120,120,1);
+}
+#A1{
+	color:orange;
+}

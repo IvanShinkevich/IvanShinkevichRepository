@@ -1,0 +1,147 @@
+замыкание
+
+замыкание-тело функции.
+var g - видна только в своей области видимости
+s=10; - видна во всем коде,т.е. глобальная область видимости
+глобальная область видимости- область видимости,в которой находится весь наш код
+глобальная область видимости - это объект.обратиться можно при помощи window
+без var - автоматически становится полем объекта window
+window.s
+function declaration:
+function f(){
+	//...
+}
+
+window.f(); - контекст функции f - window
+
+parseInt.f();
+parseFloat()  - обращаясь к объекту window - можно его не указывать(если нету переменной,которая называется так же)
+объектов window несколько только в случае frame - прочитать
+
+методы window
+.screenX -координаты окна браузера относительно верхнего левого угла   .screenLeft
+.screenY -//-   .screenTop
+.scrollX - на сколько страница прокручена по горизонтали и по вертикали
+.scrollY -//-
+.innerWidth
+.innerHeight
+
+.open(s) - откроет новую страницу,адрес которой хранится в переменной s - если открыта через open или target_blank(html) - то страница,с которой открыта новая-доминирует и открытая страница зависит от главной
+.close() - закроет текущую вкладку(открытую через open/просто скриптом )
+.print() - отправит страницу на печать
+.scrollBy(x,y) - прокручивает на столько-то пикселей от текущего положения
+.scrollTo(x,y) - прокрутит область просмотра до координат x,y - от нуля
+
+
+Таймеры и интервалы
+
+таймеры-это функции,которые выполняются через определенный промежуток времени
+интервалы-функции,выполняющиеся через определенный промежуток времени
+
+чтобы создать таймер:
+(window.)-не обязательно
+var int = setTimeout(function(){
+	console.log("Hello");
+},1000(время таймера в миллисекундах))
+
+var i=10;
+var int - идентификатор = setInterval(function(){
+	console.log(i++);
+},1000)
+
+clearInterval(identifier)
+
+window.location - расположение страницы
+
+.hash
+.host
+.href=""
+.port
+.protocol
+.search
+.reload() - закроет страницу
+.assign(s) - откроет страницу,которую я передал в кач-ве аргумента
+
+
+ДЕЛЕНИЕ В JS - НЕ КАК В C++
+
+
+href=(https://)-protocol(google.com)-port/search:(8080)-port?(search=ABX)-search(#BOTTOM)-hash"
+
+get-параметры - всё после знака "?"
+
+
+window.navigator
+
+.appCodeName
+.appName
+.cookieEnabled - разрешены они или нет(cookie)
+.javaEnabled - функция
+.onLine - с инетом или без
+.userAgent - HTTP-заголовок User-Agent для Request`ов
+
+
+
+Mosaic->NetscapeNavigator,IE
+Mozilla-MosaicKiller - остальные на его базе
+
+window.screen
+
+.availHeight
+.availWidth
+.colorDepth - возвращает число,которое обозначает номер цвета
+.height
+.width
+.orientation
+
+
+
+window.history
+
+.go(n) - перекинет в историю,которая отстоит на n страниц от данной(.go(1);.go(-1))
+.forward() = .go(1)
+.back() = .go(-1)
+.length
+
+navigator.geolocation.getCurrentPosition(
+function(r){
+	console.log(r.coords);
+});
+
+ДЗ:
+1.Поторить html
+2.Вывести на страницу таблицу (поле|-значение)
+поле:ширина и высота области просмотра,текущий адрес страницы,порт,протокол,строка поиска,хеш-адрес,название хоста(адрес хоста),кодовое название браузера,название браузера,включены ли куки,работаете ли вы в автономном режиме,глубину цветопередачи экрана,ширину и высоту экрана,длина истории просмотра вкладки
+
+var table="<table>\
+<tr>\
+<td>Поле</td>\
+<td>Значение</td>\
+</tr>\
+</table>";
+document.write(table)
+
+
+
+
+// var s=parseInt((10000-window.innerHeight)/5);
+// var i=0;
+// var d = setInterval(function(){
+// 	scrollBy(0,5);
+// 	i++;
+// 	if(i==s) clearInterval(d);
+// 	console.log(d,i,s)
+// },5)
+
+// setTimeout(function(){
+// 	clearInterval(d);
+// },)
+// if(i==s)
+// {
+// 	clearInterval(d);
+// }
+
+
+
+
+

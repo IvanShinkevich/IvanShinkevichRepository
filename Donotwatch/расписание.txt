@@ -1,0 +1,43 @@
+﻿Вторник 19:30 занятие!
+
+Project:
+front-end(видимое пользователем:веб-страницы,клиентское программирование(что на клиенте происзодит html css javascript) & back-end(серверные технологии,обработка данных на сервере php,scala,java,python,Node.js,c#,.Net,C++)
+у нас-front-end;exception:запуск серверов
+css<-html<-xml
+Netscape(browser)->LiveScript;+Sun=creation of Java;after-in just Netscape was made JavaScript - more like C++;
+Rust consisits of Python,C++,Rail;
+Microsoft - created JScript.THe same with Java,no problems with copyrights;
+ECMA standart
+ecmascript;
+JavaScript
+LECMA
+LDOM
+LBOM
+1,2,3,5,6(2015 year -different standarts)
+3,5 - used;
+JAvaScript-сценарный,сразу выполняемый
+document.write(s)
+document.writeln(s)
+console.log(s)
+console.error(s)
+alert(s)
+prompt([s])
+confirm
+s-переменная типа string;просто в кавычках строка
+[]-необязательный аргумент,может быть,может не быть
+Типизация:
+Динамическая(переменная-любой объект может в себе иметь) и статическая(есть конкретный тип,но мы его задали,и вот он)
+JS-динамически типизированный
+JS,Wolfram,Python,PHP-dynamic
+C++,Java,C#(?),Scala(?),Pascal
+var s="Hello world"; - creation and initialization of s;
+s=1+2
+alert(s)
+any type;
+Типы данных:
+undefined - это неопределенность,т.е. создал переменную без значения,вывел и получил "undefined".если не возвращает-тоже
+number - все числа;целые и вещественные.что-то типа 10 в 307 степени по модулю.есть NaN("A"+1) и Infinity - всё,что больше,чем 10 в 307 по модулю;можно писать как переменные
+string - строковый тип,в нём хранятся строки
+boolean - true/false
+object - 
+function

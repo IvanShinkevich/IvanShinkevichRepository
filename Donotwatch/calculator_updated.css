@@ -1,0 +1,16 @@
+table,th,td
+{
+	height:50px;
+width:200px;
+border:1px solid black;
+align:center;
+background-color: blue;
+color:red;
+text-align:center;
+}
+tr#Field
+{
+
+	text-align:right;
+	height:50px;
+}

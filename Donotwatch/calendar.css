@@ -1,0 +1,18 @@
+body {
+	 table-layout:center;
+	 text-align:center;
+}
+table,tr,td{
+	vertical-align: center;
+ table-layout: center;
+	border:6px solid black;
+	background-color: blue;
+	height:50px;
+width:200px;
+};
+body#secret1
+{
+	display:none;
+	color:rgba(100,150,255,1);
+	
+}

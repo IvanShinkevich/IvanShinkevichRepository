@@ -1,0 +1,20 @@
+var n=10000;
+var a=0;
+function figna(n)
+{
+var c=[];
+function rand(a,n)
+	{
+	return c=Math.round(0+Math.random()*(10000-0));
+	}
+while(c.length<n)
+{
+	c.push(rand(0,n));
+}
+
+return(c);
+}
+ 
+ c=[];
+ c=figna(100);
+ console.log.c;
