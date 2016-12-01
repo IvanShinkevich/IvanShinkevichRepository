@@ -1,0 +1,25 @@
+input[type="button"] {background-image: url(icons/play.jpg);
+
+background-size: 80%;
+background-repeat: no-repeat;
+background-position: center; 
+width: 25px;
+height: 25px;
+border-radius: 3px;}
+
+#stop{background-image: url(icons/stop.jpg)}
+
+#rewindb{background-image: url(icons/rewindb.jpg)}
+
+#rewind{background-image: url(icons/rewind.jpg)}
+
+#reload{background-image: url(icons/reload.png)}
+
+#mute{background-image: url(icons/volume.png)}
+
+#progr{height: 15px; width: 400px; display:inline-block;}
+
+#time{display:inline-block;}
+
+#vid{width:70%;
+	height:30%;}
