@@ -1,0 +1,113 @@
+<!doctype=html>
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<link rel="stylesheet" href="registration.css"/>
+	</head>
+	<body>
+		<h3>Зарегистрироваться на сайте</h3>
+			
+		<div class='consulting'>Do you need help?</div>
+			
+
+	<form id="form">
+			
+			<fieldset>
+				
+				<legend>Данные регистрации</legend>
+					<p>
+						<label>
+						<span>Придумайте никнейм </span>
+						<input type='text' name='nickname' id='nick'/>
+			 			</label> 
+					</p>
+					<p>
+			 			<label>
+						<span> Введите пароль</span>
+						<input type='password' name='password' id='pass' />
+			 			</label> 
+					</p>
+					<p>
+			 			<label>
+						<span> Повторите пароль </span>
+						<input type='password' name='secpassword' />
+			 			</label>
+					</p>
+			</fieldset>
+
+			<fieldset>
+
+				<legend>Общая информация</legend>
+					<p>
+						<label>
+						<span> Ваш возраст</span>
+						<input type='number' name='age' min='0' id='age'/>
+			 			</label> 
+			 		</p>
+			 		<p>	
+			 			<label>
+				 			<span>Ваша страна</span>
+							<select name='country' id='countre'>
+								<option> Беларусь</option>
+								<option>Россия </option>
+								<option> Китай</option>
+							</select>
+			 			</label>
+			 		</p>
+			 		<p>	 
+			 			<label>
+						<span> Ваш город </span>
+						<input type='text' name='city' id='city' />
+			 			</label>
+			 		</p>	 
+			</fieldset>
+
+			<fieldset >
+				<legend>Параметры</legend>
+					<p>
+						<label>
+						<input type='radio' name='age' id='' />
+						<span>Я старше 18-ти лет </span>
+			 			</label>
+			 		</p>
+			 		<p>
+						<label>
+						<input type='radio' name='age1' />
+						<span>Я младше 18-ти лет </span>
+			 			</label>
+			 		</p>
+			 		<p>	 
+			 			<label>
+						<input type='checkbox' name='allow' />
+			 			<span>Я позволяю другим пользователям просматривать мой профиль</span>
+			 			</label>
+			 		</p>
+			 		<p>	 
+			 			<label>
+						<input type='checkbox' name='news' />
+			 			<span> Я хочу получать рассылку от сайта</span>
+			 			</label>
+			 		</p>
+			 		<p>	 
+			 			<label>
+						<input type='checkbox' name='acceptance' />
+			 			<span>Я прочитал и принял <a href='https://www.google.com/intl/ru/policies/terms/' target='_blank'>условия пользования</a> </span>
+			 			</label>
+			 		</p>
+			</fieldset>
+			<fieldset>
+				<legend>Выход</legend>
+					<p>
+						
+							<input type='submit' value='Зарегистрироваться!' class='button'/>
+						
+					</p>
+					<p>
+							<input type='reset' value='Сбросить форму' class='button'/>
+					</p>
+			</fieldset>
+		</form>
+<!-- 	<table class="player"><tr><img src='Untitled-2.jpg' class='img'/></tr></table> -->
+		<script src="Reg.js"></script>
+	</body>
+</html>
