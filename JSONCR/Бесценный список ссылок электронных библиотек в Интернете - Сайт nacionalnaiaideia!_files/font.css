@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+
+body {}
+
+body, p, table, td
+{
+    font:normal 19px/100% Helvetica, Arial, sans-serif;
+    color:#000363;
+}
+
+input, textarea
+{
+    font:normal 19px/100% Helvetica, Arial, sans-serif;
+}
+
+h1
+{
+    font:italic normal bold 20px/140% Arial, Helvetica, sans-serif;
+    color:#000FD4;
+    text-align:center;
+}
+
+h2
+{
+    font:italic normal bold 20px/140% "Times New Roman", Times, serif;
+    color:#000AD8;
+    text-align:center;
+}
+
+h3
+{
+    font:italic normal normal 12px/140% Verdana, Arial, Helvetica, sans-serif;
+    color:#FF4D0F;
+    
+}
+
+a:link,
+a:visited
+{
+    text-decoration: underline; /* fix */
+    color:#0099E1;
+}
+
+a:active,
+a:hover
+{
+    text-decoration:none; /* fix */
+    color: #0099E1;
+}
+
+div.hr
+{
+    border-bottom-style:solid;
+    border-bottom-width:1px; /* fix */
+    border-color: #CCCCCC;
+    height: 1px;
+}/*  alternative */
+
+.altcolor,
+.altcolor p { color:#000000;}
+
+.altcolor h1 {color:#000000; }
+.altcolor h2 {color:#000000; }
+.altcolor h3 {color:#EEEEEE; }
+
+.altcolor a:link,
+.altcolor a:visited { color:#000000; }
+
+.altcolor a:active, 
+.altcolor a:hover { color:#000000; }
+
+.altcolor div.hr {border-color: #000000;}

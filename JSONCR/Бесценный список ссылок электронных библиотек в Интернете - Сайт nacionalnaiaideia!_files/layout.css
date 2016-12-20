@@ -1,0 +1,151 @@
+/*
+-----------------------------------------------
+Headerlayout Test 221 Screen Styles
+Author:   Fridtjof Detzner
+Version:  8 Sep 2005
+----------------------------------------------- */
+
+/* 
+* Abweichende Body Definitionen
+*/
+
+DIV.ccgalerie {
+width:100%;
+}
+
+
+div#cc-tp-padding-container { 
+	position: relative; text-align:center; padding:0px 0px; 
+}
+
+
+/*  Typo
+----------------------------------------------- */ 
+
+div#container { background: #fff url(https://u.jimcdn.com/e/o/layout/lc272c1f914a20f97/slider/color/669999/fileext/png) repeat-y top left; border:0px solid #FFFFFF;}
+
+
+div#footer{background: #333;}
+
+div#footer .gutter{ color:white; }
+
+div#contentfooter,
+div#contentfooter a
+{
+	color:white;
+}
+
+/*  CSS Layout
+----------------------------------------------- */
+
+div#container
+{
+	width:850px;
+	margin:0 auto; 
+	text-align:left;
+}
+
+div#container div#emotion .n {padding:0px;}
+
+
+div#content
+{
+	float:right;
+	width:597px;
+	z-index:1;
+}
+
+div#navigation
+{
+	float:left;
+	width:250px;
+	background: #669999;
+}
+
+div#sidebar
+{
+	float:left;
+	clear:left;
+	width:250px;
+	background: #669999;
+	overflow: auto;
+	z-index: 10;
+	overflow:visible;
+}
+
+div#footer
+{
+	clear:both;
+	width:100%;
+}
+
+/* gutter */
+
+div#content .gutter { padding: 10px 10px 0 10px; }
+div#sidebar .gutter { padding: 10px; }
+div#footer .gutter{ padding: 10px; }
+
+
+/*  MainNav Level 1
+----------------------------------------------- */
+
+ul.mainNav1
+{
+	text-align: left;
+	margin:15px 0 0 0;
+	padding:0;
+}
+
+ul.mainNav2,
+ul.mainNav3
+{
+	margin:0;
+	padding: 0;
+}
+
+
+ul.mainNav1 li,
+ul.mainNav2 li,
+ul.mainNav3 li
+{
+	display: inline;
+	margin: 0;	
+	padding: 0;
+}
+
+
+ul.mainNav1 li a,
+ul.mainNav1 li a:visited,
+ul.mainNav2 li a,
+ul.mainNav2 li a:visited,
+ul.mainNav3 li a,
+ul.mainNav3 li a:visited
+{
+	font:normal 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	display: block;
+	border-bottom:1px solid #CCC;
+}
+
+
+ul.mainNav1 li a, ul.mainNav1 li a:visited { padding:4px 4px 4px 15px; }
+ul.mainNav2 li a, ul.mainNav2 li a:visited { padding:3px 3px 3px 28px; }
+ul.mainNav3 li a, ul.mainNav3 li a:visited { padding:3px 3px 3px 41px; }
+
+
+ul.mainNav1 li a:hover,
+ul.mainNav2 li a:hover,
+ul.mainNav3 li a:hover
+{
+	background:#EEE;
+	color:black;
+}
+
+div#navigation ul.mainNav1 li a.current,
+div#navigation ul.mainNav2 li a.current,
+div#navigation ul.mainNav3 li a.current
+{ 
+	background:#EEE;
+	color:black;
+	font-weight:bold;
+}
