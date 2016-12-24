@@ -1,0 +1,44 @@
+Вторник - 17:00
+javascript - может работать только с тем,с которым пользователь разрешил
+
+JavaScript File API   - в IE 10+
+
+<input type='file'   />
+ multiple
+ accept
+
+ data URL 
+
+ 100-200 мегабайт на скрипт
+
+ Drag`n`drop
+
+ Перетаскивание и бросание
+файл/ссыль														эл-т сам   elem.dragable
+ dragenter -зашли на границы эл-та								dragstart - сам элемент только начали
+ drag leave	 -покинули границы									dragend  - закончили
+ dragover - перетаскиваем и водим мышкой в пределах эл-та		drag - когда мышкой водим элемент
+ drop  - опустили на этом эл-те
+
+
+ $ - принимает в себя css-селектор;вернет первый эл-т,попадающий в него; переменуую записал - могу потом обратно на страницу,и что угодно вообще
+ ,$$ - массив всех подходящих 
+ ,
+ $x('/html',document) - xpath запросы (можно без document)
+  функции,не дом методы
+
+ XML + XSLT в JS
+
+ EX4 - xml-standart with EC6
+
+ var p=new DOMParser();
+ var s=p.parseToString("<main><submain a='b'></main>")
+ console.log(s)
+
+ var serializer=new XMLSerializer()
+ var s=serializer.serializeToString(s)
+
+
+ new XSLTProcessor   ->  importStylesheet ->  transformToDocument
+
+

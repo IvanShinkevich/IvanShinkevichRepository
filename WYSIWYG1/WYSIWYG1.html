@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>WYSIWYG1</title>
+		<meta-charset="utf-8"/>
+		<link stylesheet href="WYSIWYG1.css"/>
+	<head>
+	<body>
+		<img class="intLink" title="Bold" id="bold" src="data:image/gif;base64,R0lGODlhFgAWAID/AMDAwAAAACH5BAEAAAAALAAAAAAWABYAQAInhI+pa+H9mJy0LhdgtrxzDG5WGFVk6aXqyk6Y9kXvKKNuLbb6zgMFADs=" />
+		<img class="intLink" title="Italic" id="italic" src="data:image/gif;base64,R0lGODlhFgAWAKEDAAAAAF9vj5WIbf///yH5BAEAAAMALAAAAAAWABYAAAIjnI+py+0Po5x0gXvruEKHrF2BB1YiCWgbMFIYpsbyTNd2UwAAOw==" />
+		<img class="intLink" title="Underline" id="underline"  src="data:image/gif;base64,R0lGODlhFgAWAKECAAAAAF9vj////////yH5BAEAAAIALAAAAAAWABYAAAIrlI+py+0Po5zUgAsEzvEeL4Ea15EiJJ5PSqJmuwKBEKgxVuXWtun+DwxCCgA7" />
+		<img class="intLink" title="Left align" id="leftal"  src="data:image/gif;base64,R0lGODlhFgAWAID/AMDAwAAAACH5BAEAAAAALAAAAAAWABYAQAIghI+py+0Po5y02ouz3jL4D4JMGELkGYxo+qzl4nKyXAAAOw==" />
+		<img class="intLink" title="Center align" id="centralal" src="data:image/gif;base64,R0lGODlhFgAWAID/AMDAwAAAACH5BAEAAAAALAAAAAAWABYAQAIfhI+py+0Po5y02ouz3jL4D4JOGI7kaZ5Bqn4sycVbAQA7" />
+		<img class="intLink" title="Right align" id="rigthal" src="data:image/gif;base64,R0lGODlhFgAWAID/AMDAwAAAACH5BAEAAAAALAAAAAAWABYAQAIghI+py+0Po5y02ouz3jL4D4JQGDLkGYxouqzl43JyVgAAOw==" />
+		<img class="intLink" title="Numbered list" id="numlist" src="data:image/gif;base64,R0lGODlhFgAWAMIGAAAAADljwliE35GjuaezxtHa7P///////yH5BAEAAAcALAAAAAAWABYAAAM2eLrc/jDKSespwjoRFvggCBUBoTFBeq6QIAysQnRHaEOzyaZ07Lu9lUBnC0UGQU1K52s6n5oEADs=" />
+		<img class="intLink" title="Dotted list" id="dotlist" src="data:image/gif;base64,R0lGODlhFgAWAMIGAAAAAB1ChF9vj1iE33mOrqezxv///////yH5BAEAAAcALAAAAAAWABYAAAMyeLrc/jDKSesppNhGRlBAKIZRERBbqm6YtnbfMY7lud64UwiuKnigGQliQuWOyKQykgAAOw==" />
+		<div contenteditable></div>
+
+	
+		<input type="button" value="italic" >
+		<input type="button" value="link" id="link">
+		<input type="button" value="unlink" id="unlinks">
+		<input type="button" value="horizontal line" id="horline">
+		<select id="fontsize">
+			<option  selected>- size -</option>
+			<option value="1">Very small</option>
+			<option value="2">A bit small</option>
+			<option value="3">Normal</option>
+			<option value="4">Medium-large</option>
+			<option value="5">Big</option>
+			<option value="6">Very big</option>
+			<option value="7">Maximum</option>
+		</select>
+
+		<select id="fontname">
+			<option selected>- font -</option>
+			<option>Arial</option>
+			<option>Arial Black</option>
+			<option>Courier New</option>
+			<option>Times New Roman</option>
+		</select>
+
+		<select id="fontcolor">
+			<option selected>- color -</option>
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+			<option value="black">Black</option>
+		</select>
+
+		<select id="bgcolor">
+			<option selected>- background -</option>
+			<option value="red">Red</option>
+			<option value="green">Green</option>
+			<option value="black">Black</option>
+		</select>
+		<div id="status"></div>
+		<input type="button" value="Сбросить" id="reset">
+
+		<canvas id="canvas" height="400" width="400"></canvas>
+		<script src="MFR.js"></script>
+		<script src="WYSIWYG1.js"></script>
+	</body>
+</html>

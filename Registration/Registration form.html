@@ -1,6 +1,7 @@
 <!doctype=html>
 <html>
 	<head>
+		<title>Reg</title>
 		<meta charset='utf-8'/>
 		<link rel="stylesheet" href="registration.css"/>
 	</head>
@@ -18,19 +19,19 @@
 					<p>
 						<label>
 						<span>Придумайте никнейм </span>
-						<input type='text' name='nickname' id='nick'/>
+						<input type='text' name='nickname' class='input' id='nick'/>
 			 			</label> 
 					</p>
 					<p>
 			 			<label>
 						<span> Введите пароль</span>
-						<input type='password' name='password' id='pass' />
+						<input type='password' name='password' class='input' id='pass' />
 			 			</label> 
 					</p>
 					<p>
 			 			<label>
 						<span> Повторите пароль </span>
-						<input type='password' name='secpassword' />
+						<input type='password' name='secpassword' class='input' />
 			 			</label>
 					</p>
 			</fieldset>
@@ -41,13 +42,13 @@
 					<p>
 						<label>
 						<span> Ваш возраст</span>
-						<input type='number' name='age' min='0' id='age'/>
+						<input type='number' name='age1' min='0' id='age23' class='age'/>
 			 			</label> 
 			 		</p>
 			 		<p>	
 			 			<label>
 				 			<span>Ваша страна</span>
-							<select name='country' id='countre'>
+							<select name='country' id='country'>
 								<option> Беларусь</option>
 								<option>Россия </option>
 								<option> Китай</option>
@@ -57,7 +58,7 @@
 			 		<p>	 
 			 			<label>
 						<span> Ваш город </span>
-						<input type='text' name='city' id='city' />
+						<input type='text' name='city' id='city' class='input' />
 			 			</label>
 			 		</p>	 
 			</fieldset>
@@ -66,31 +67,31 @@
 				<legend>Параметры</legend>
 					<p>
 						<label>
-						<input type='radio' name='age' id='' />
+						<input type='radio' name='age' id='' class='radio' />
 						<span>Я старше 18-ти лет </span>
 			 			</label>
 			 		</p>
 			 		<p>
 						<label>
-						<input type='radio' name='age1' />
+						<input type='radio' name='age' class='radio'/>
 						<span>Я младше 18-ти лет </span>
 			 			</label>
 			 		</p>
 			 		<p>	 
 			 			<label>
-						<input type='checkbox' name='allow' />
+						<input type='checkbox' name='allow' class='checkbox' />
 			 			<span>Я позволяю другим пользователям просматривать мой профиль</span>
 			 			</label>
 			 		</p>
 			 		<p>	 
 			 			<label>
-						<input type='checkbox' name='news' />
+						<input type='checkbox' name='news' class='checkbox' />
 			 			<span> Я хочу получать рассылку от сайта</span>
 			 			</label>
 			 		</p>
 			 		<p>	 
 			 			<label>
-						<input type='checkbox' name='acceptance' />
+						<input type='checkbox' name='acceptance' class='checkbox' />
 			 			<span>Я прочитал и принял <a href='https://www.google.com/intl/ru/policies/terms/' target='_blank'>условия пользования</a> </span>
 			 			</label>
 			 		</p>
@@ -99,15 +100,15 @@
 				<legend>Выход</legend>
 					<p>
 						
-							<input type='submit' value='Зарегистрироваться!' class='button'/>
+							<input type='submit' value='Зарегистрироваться!' name='Зарегистрироваться!' class='button'/>
 						
 					</p>
 					<p>
-							<input type='reset' value='Сбросить форму' class='button'/>
+							<input type='reset' value='Сбросить форму' name='Сбросить форму' class='button'/>
 					</p>
 			</fieldset>
 		</form>
 <!-- 	<table class="player"><tr><img src='Untitled-2.jpg' class='img'/></tr></table> -->
-		<script src="Reg.js"></script>
+		<script src="Reg2.js"></script>
 	</body>
 </html>
