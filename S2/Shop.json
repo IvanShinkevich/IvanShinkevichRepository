@@ -1,0 +1,334 @@
+[
+{
+	"title":"Historical",
+	"image":"images/0.jpg",
+	"type":[
+		{
+		"title":"With guide",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/1.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/2.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"40р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/3.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"40р"
+			},
+			{
+			"title":"Excurs4",
+			"image":"images/1.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"30р"
+			},
+			{
+			"title":"Excurs5",
+			"image":"images/2.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs6",
+			"image":"images/3.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/32.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/33.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/32.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/33.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/32.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/33.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/32.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/33.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			}]
+		},
+		{
+		"title":"Without guide",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/1.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"30р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/2.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/3.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			},
+			{
+			"title":"Excurs4",
+			"image":"images/1.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"30р"
+			},
+			{
+			"title":"Excurs5",
+			"image":"images/2.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs6",
+			"image":"images/3.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			}
+		]
+	}]
+	
+	},
+
+	{
+	"title":"Walking",
+	"image":"images/7.jpg",
+	"type":[
+		{
+		"title":"Parks/Forest",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/8.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/9.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"40р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/10.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"40р"
+			}]
+		},
+		{
+		"title":"Streets/Memorable places",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/11.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"30р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/12.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/13.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			}]
+		}]
+	
+	},
+
+	{
+	"title":"Shopping",
+	"image":"images/14.jpg",
+	"type":[
+		{
+		"title":"Bytiques",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/15.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/16.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"40р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/17.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"40р"
+			}]
+		},
+		{
+		"title":"Caffes",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/18.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"30р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/19.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/20.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			}]
+		},
+		{
+		"title":"Shopping malls",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/21.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"30р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/22.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/23.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			}]
+		}]
+	
+	},
+	{
+	"title":"Transport",
+	"image":"images/24.jpg",
+	"type":[
+		{
+		"title":"Bus",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/25.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/26.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"40р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/27.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"40р"
+			}]
+		},
+		{
+		"title":"Bike",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/28.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"30р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/29.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/30.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			}]
+		},
+		{
+		"title":"Helicopter",
+		"goods":[
+			{
+			"title":"Excurs1",
+			"image":"images/31.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"30р"
+			},
+			{
+			"title":"Excurs2",
+			"image":"images/32.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will have the possibility to visit the oldest buildings not in the center of our city,and not only-that`s a great possibility to enjoy the city itself,without moving a lot",
+			"price":"35р"
+			},
+			{
+			"title":"Excurs3",
+			"image":"images/33.jpg",
+			"description":"This excursion gives you the possibility to enjoy sightseens of our nice and beautiful city.You will not have the possibility to visit the oldest buildings neither in the center of our city,nor on the suburbs,and not only-that`s a great possibility to enjoy the city itself,with moving a lot",
+			"price":"40"
+			}]
+		}]
+	
+	}
+
+]

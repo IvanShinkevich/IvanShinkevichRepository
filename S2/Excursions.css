@@ -1,0 +1,103 @@
+.raz {
+    display: inline-block;
+    position: relative;
+    background: #E6E6E6;
+    text-indent: 0px;
+    cursor: help;
+}
+
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    z-index: 1;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:33%;
+    min-height: 1000px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    z-index: 100;
+
+}
+
+
+.raz.anim > span, .raz.anim:after {
+    opacity: 0;
+    transform: translateY(1.5em) scale(.3);
+    transform-origin: center bottom;
+}
+.raz:after {
+    content: "";
+    position: absolute;
+    top: -.4em;
+    left: 50%;
+    visibility: hidden;
+    margin: 0 0 0 -.4em;
+    border: .4em solid;
+    border-color: rgb(200,200,200) transparent transparent transparent;
+    cursor: auto;
+}
+#mainimage{
+	width:100%;
+/*	height:150px;
+*/}
+div{
+	text-align: center;
+}
+body{
+	font-size: 27px;
+/*	background-color: #8e8bca;
+*/}
+#list{
+	text-align:left;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: -0.5%;
+    z-index: 0;
+}
+ul:after {
+    display: block;
+
+    content: '';
+    clear: both;
+    float: none;
+    margin: 0px;
+    padding: 0px 0px;
+    list-style: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    z-index: 0;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    height: 15%;
+    border:1px solid grey;
+        z-index: 0;
+
+
+}
+ul.menu > li > a:hover {
+    z-index: 0;
+    background-color: black;
+}
